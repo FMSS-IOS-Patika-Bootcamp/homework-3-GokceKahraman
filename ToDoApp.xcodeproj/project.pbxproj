@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7305367E28D8F2520084BC56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305367D28D8F2520084BC56 /* AppDelegate.swift */; };
 		7305368028D8F2520084BC56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305367F28D8F2520084BC56 /* SceneDelegate.swift */; };
-		7305368228D8F2520084BC56 /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305368128D8F2520084BC56 /* PostsTableViewController.swift */; };
+		7305368228D8F2520084BC56 /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305368128D8F2520084BC56 /* PostListViewController.swift */; };
 		7305368528D8F2520084BC56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7305368328D8F2520084BC56 /* Main.storyboard */; };
 		7305368728D8F2540084BC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7305368628D8F2540084BC56 /* Assets.xcassets */; };
 		7305368A28D8F2540084BC56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7305368828D8F2540084BC56 /* LaunchScreen.storyboard */; };
@@ -18,7 +18,12 @@
 		730536A128D8F2540084BC56 /* ToDoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730536A028D8F2540084BC56 /* ToDoAppUITestsLaunchTests.swift */; };
 		730536B128D903AF0084BC56 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730536B028D903AF0084BC56 /* ToDoListViewController.swift */; };
 		730536B328D904FD0084BC56 /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730536B228D904FD0084BC56 /* ImageCollectionViewController.swift */; };
-		730536B528D90D9E0084BC56 /* PostsTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730536B428D90D9E0084BC56 /* PostsTableViewModel.swift */; };
+		730536B528D90D9E0084BC56 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730536B428D90D9E0084BC56 /* PostListViewModel.swift */; };
+		7322EE4C28DA57B800397BFF /* AddNewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322EE4B28DA57B800397BFF /* AddNewTaskViewController.swift */; };
+		7322EE4E28DA586000397BFF /* AddNewTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322EE4D28DA586000397BFF /* AddNewTaskViewModel.swift */; };
+		7322EE5028DA588100397BFF /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322EE4F28DA588100397BFF /* ToDoListViewModel.swift */; };
+		7322EE5228DB1ED900397BFF /* PostListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322EE5128DB1ED900397BFF /* PostListModel.swift */; };
+		7322EE5428DB406800397BFF /* PostListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322EE5328DB406800397BFF /* PostListEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +47,7 @@
 		7305367A28D8F2520084BC56 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7305367D28D8F2520084BC56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7305367F28D8F2520084BC56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7305368128D8F2520084BC56 /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
+		7305368128D8F2520084BC56 /* PostListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
 		7305368428D8F2520084BC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7305368628D8F2540084BC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7305368928D8F2540084BC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,7 +59,12 @@
 		730536A028D8F2540084BC56 /* ToDoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		730536B028D903AF0084BC56 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		730536B228D904FD0084BC56 /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewController.swift; sourceTree = "<group>"; };
-		730536B428D90D9E0084BC56 /* PostsTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewModel.swift; sourceTree = "<group>"; };
+		730536B428D90D9E0084BC56 /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		7322EE4B28DA57B800397BFF /* AddNewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTaskViewController.swift; sourceTree = "<group>"; };
+		7322EE4D28DA586000397BFF /* AddNewTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTaskViewModel.swift; sourceTree = "<group>"; };
+		7322EE4F28DA588100397BFF /* ToDoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
+		7322EE5128DB1ED900397BFF /* PostListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListModel.swift; sourceTree = "<group>"; };
+		7322EE5328DB406800397BFF /* PostListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +148,7 @@
 		730536AD28D8F9520084BC56 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7322EE5128DB1ED900397BFF /* PostListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,7 +156,9 @@
 		730536AE28D8F95B0084BC56 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				730536B428D90D9E0084BC56 /* PostsTableViewModel.swift */,
+				730536B428D90D9E0084BC56 /* PostListViewModel.swift */,
+				7322EE4D28DA586000397BFF /* AddNewTaskViewModel.swift */,
+				7322EE4F28DA588100397BFF /* ToDoListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -153,9 +166,11 @@
 		730536AF28D8F97B0084BC56 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7305368128D8F2520084BC56 /* PostsTableViewController.swift */,
+				7305368128D8F2520084BC56 /* PostListViewController.swift */,
+				7322EE5328DB406800397BFF /* PostListEntity.swift */,
 				730536B028D903AF0084BC56 /* ToDoListViewController.swift */,
 				730536B228D904FD0084BC56 /* ImageCollectionViewController.swift */,
+				7322EE4B28DA57B800397BFF /* AddNewTaskViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -291,11 +306,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7322EE5028DA588100397BFF /* ToDoListViewModel.swift in Sources */,
 				730536B328D904FD0084BC56 /* ImageCollectionViewController.swift in Sources */,
 				730536B128D903AF0084BC56 /* ToDoListViewController.swift in Sources */,
-				7305368228D8F2520084BC56 /* PostsTableViewController.swift in Sources */,
-				730536B528D90D9E0084BC56 /* PostsTableViewModel.swift in Sources */,
+				7305368228D8F2520084BC56 /* PostListViewController.swift in Sources */,
+				730536B528D90D9E0084BC56 /* PostListViewModel.swift in Sources */,
+				7322EE5428DB406800397BFF /* PostListEntity.swift in Sources */,
 				7305367E28D8F2520084BC56 /* AppDelegate.swift in Sources */,
+				7322EE4C28DA57B800397BFF /* AddNewTaskViewController.swift in Sources */,
+				7322EE5228DB1ED900397BFF /* PostListModel.swift in Sources */,
+				7322EE4E28DA586000397BFF /* AddNewTaskViewModel.swift in Sources */,
 				7305368028D8F2520084BC56 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
