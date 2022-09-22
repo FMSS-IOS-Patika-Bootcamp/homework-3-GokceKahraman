@@ -17,7 +17,7 @@ class PostListViewModel{
     private let model = PostListModel()
     
     //    view instance wth delegate
-    weak var delegate: PostListViewModelViewProtocol?
+    weak var viewDelegate: PostListViewModelViewProtocol?
     
     init() {
         model.delegate = self
@@ -46,7 +46,7 @@ extension PostListViewModel: PostListModelProtocol{
     
     func didDataFetch() {
 //        TODO:
-        delegate?.didCellItemFetch(makeViewBasedModel())
+        viewDelegate?.didCellItemFetch(makeViewBasedModel())
         makeViewBasedModel()
     }
 }

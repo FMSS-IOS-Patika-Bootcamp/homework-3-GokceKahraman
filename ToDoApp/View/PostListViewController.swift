@@ -17,7 +17,8 @@ class PostListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
-        viewModel.delegate = self
+        viewModel.viewDelegate = self
+        viewModel.didViewLoad()
     }
 }
 private extension PostListViewController{

@@ -13,8 +13,8 @@ class PostListTableViewCell: UITableViewCell {
     @IBOutlet private weak var containerView: UIView!
     
     @IBOutlet private(set) weak var postTitleLabel: UILabel!
-    @IBOutlet private(set) weak var postDescLabel: UILabel!
- 
+    @IBOutlet weak var postDescLabel: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
