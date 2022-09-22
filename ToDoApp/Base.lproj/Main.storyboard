@@ -34,7 +34,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="dpW-Pp-uZr"/>
                     <connections>
-                        <outlet property="postTableview" destination="rsB-NG-WE2" id="nvq-Ew-LNG"/>
+                        <outlet property="tableView" destination="rsB-NG-WE2" id="nvq-Ew-LNG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

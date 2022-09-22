@@ -9,7 +9,7 @@ import UIKit
 
 class PostListViewController: UIViewController {
 
-    @IBOutlet weak var postTableview: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     // wtout dependence injection
     private let viewModel = PostListViewModel()
     private var items: [PostCellViewModel] = []
@@ -17,19 +17,22 @@ class PostListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
+        viewModel.delegate = self
     }
 }
 private extension PostListViewController{
 //    lifecycle çok kod olmaması için,
     func setUI(){
         // post tableview data source set et.
-        postTableview.delegate = self
-        postTableview.dataSource = self
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        registerCell()
     }
     
     func registerCell(){
-        tableView.register(.init(nibName: "PostListTableViewCell", bundle: ""), forCellReuseIdentifier: "PostListTableViewCell")
-        
+        tableView.register(.init(nibName: "PostListTableViewCell", bundle: nil ), forCellReuseIdentifier: "PostListTableViewCell")
+
     }
 }
 
@@ -50,7 +53,14 @@ extension PostListViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: "PostListTableViewCell") as! PostListTableViewCell
+        
+        cell.postTitleLabel.text = items[indexPath.row].title
+        cell.postDescLabel.text = items[indexPath.row].desc
+        return cell
+        
+        
     }
 }
