@@ -1,15 +1,12 @@
-//
-//  PostsTableViewModel.swift
-//  ToDoApp
-//
-//  Created by Gökçe Kahraman on 19.09.2022.
-//
+
 import UIKit
 import Foundation
 
 protocol PostListViewModelViewProtocol: AnyObject{
     
     func didCellItemFetch(_ items: [PostCellViewModel])
+    func showEmptyView()
+    func hideEmptyView()
 }
 
 class PostListViewModel{
@@ -27,7 +24,8 @@ class PostListViewModel{
         model.fetchData()
     }
     func didClickItem(at index: Int){
-//        TODO:
+        let selectedItem = model.posts[index]
+//        TODO: Navigate
     }
     
 }
@@ -35,8 +33,8 @@ class PostListViewModel{
 private extension PostListViewModel{
     
     @discardableResult
-    func makeViewBasedModel() -> [PostCellViewModel]{
-        return []
+    func makeViewBasedModel(_ posts: [Post]) -> [PostCellViewModel]{
+        return posts.map{ .init(title: $0.title , desc: $0.body)}
     }
 }
 
@@ -44,9 +42,14 @@ private extension PostListViewModel{
 //MARK: - PostListModelProtocol
 extension PostListViewModel: PostListModelProtocol{
     
-    func didDataFetch() {
-//        TODO:
-        viewDelegate?.didCellItemFetch(makeViewBasedModel())
-        makeViewBasedModel()
+    func didDataFetchProgressFinish(_ isSuccess: Bool) {
+        if isSuccess {
+            let posts = model.posts
+            let cellModels = makeViewBasedModel(posts)
+            viewDelegate?.didCellItemFetch(cellModels)
+            viewDelegate?.hideEmptyView()
+        } else {
+            viewDelegate?.showEmptyView()
+        }
     }
 }

@@ -24,8 +24,18 @@
 		7322EE5028DA588100397BFF /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322EE4F28DA588100397BFF /* ToDoListViewModel.swift */; };
 		7322EE5228DB1ED900397BFF /* PostListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322EE5128DB1ED900397BFF /* PostListModel.swift */; };
 		7322EE5428DB406800397BFF /* PostListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322EE5328DB406800397BFF /* PostListEntity.swift */; };
+		73410D2428DFEDEF008B6AAC /* UserInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73410D2228DFEDEF008B6AAC /* UserInfo.xcdatamodeld */; };
+		73410D2728DFEFF4008B6AAC /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73410D2628DFEFF4008B6AAC /* CoreDataStack.swift */; };
 		735FC3F228DBE17E00111CF4 /* PostListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735FC3F028DBE17E00111CF4 /* PostListTableViewCell.swift */; };
 		735FC3F328DBE17E00111CF4 /* PostListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 735FC3F128DBE17E00111CF4 /* PostListTableViewCell.xib */; };
+		73E6343728DE014D004D271B /* ImageListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6343628DE014D004D271B /* ImageListEntity.swift */; };
+		73E6343928DE02A3004D271B /* ImageListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6343828DE02A3004D271B /* ImageListModel.swift */; };
+		73E6343E28DE03ED004D271B /* ImageListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6343C28DE03ED004D271B /* ImageListCollectionViewCell.swift */; };
+		73E6343F28DE03ED004D271B /* ImageListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E6343D28DE03ED004D271B /* ImageListCollectionViewCell.xib */; };
+		73E6344128DE040B004D271B /* ImageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6344028DE040B004D271B /* ImageListViewModel.swift */; };
+		73E6344328DE042F004D271B /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6344228DE042F004D271B /* ToDoListViewModel.swift */; };
+		73E6344A28DFD85B004D271B /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6344828DFD85B004D271B /* ToDoTableViewCell.swift */; };
+		73E6344B28DFD85B004D271B /* ToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E6344928DFD85B004D271B /* ToDoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +77,18 @@
 		7322EE4F28DA588100397BFF /* ToDoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
 		7322EE5128DB1ED900397BFF /* PostListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListModel.swift; sourceTree = "<group>"; };
 		7322EE5328DB406800397BFF /* PostListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListEntity.swift; sourceTree = "<group>"; };
+		73410D2328DFEDEF008B6AAC /* UserInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserInfo.xcdatamodel; sourceTree = "<group>"; };
+		73410D2628DFEFF4008B6AAC /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		735FC3F028DBE17E00111CF4 /* PostListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewCell.swift; sourceTree = "<group>"; };
 		735FC3F128DBE17E00111CF4 /* PostListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostListTableViewCell.xib; sourceTree = "<group>"; };
+		73E6343628DE014D004D271B /* ImageListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListEntity.swift; sourceTree = "<group>"; };
+		73E6343828DE02A3004D271B /* ImageListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListModel.swift; sourceTree = "<group>"; };
+		73E6343C28DE03ED004D271B /* ImageListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListCollectionViewCell.swift; sourceTree = "<group>"; };
+		73E6343D28DE03ED004D271B /* ImageListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageListCollectionViewCell.xib; sourceTree = "<group>"; };
+		73E6344028DE040B004D271B /* ImageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewModel.swift; sourceTree = "<group>"; };
+		73E6344228DE042F004D271B /* ToDoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
+		73E6344828DFD85B004D271B /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		73E6344928DFD85B004D271B /* ToDoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,14 +139,16 @@
 		7305367C28D8F2520084BC56 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
-				730536AF28D8F97B0084BC56 /* View */,
-				730536AE28D8F95B0084BC56 /* ViewModel */,
-				730536AD28D8F9520084BC56 /* Model */,
+				73410D2528DFEFD1008B6AAC /* CoreData */,
+				73E6342C28DDE39C004D271B /* PostListModule */,
+				73E6343128DDE46F004D271B /* ImageListModule */,
+				73E6342D28DDE404004D271B /* ToDoListModule */,
+				73E6344428DFD7A2004D271B /* ToDetailModule */,
+				73E6343528DDE69E004D271B /* Resources */,
 				7305367D28D8F2520084BC56 /* AppDelegate.swift */,
 				7305367F28D8F2520084BC56 /* SceneDelegate.swift */,
-				7305368328D8F2520084BC56 /* Main.storyboard */,
-				7305368628D8F2540084BC56 /* Assets.xcassets */,
-				7305368828D8F2540084BC56 /* LaunchScreen.storyboard */,
+				7322EE4B28DA57B800397BFF /* AddNewTaskViewController.swift */,
+				7322EE4D28DA586000397BFF /* AddNewTaskViewModel.swift */,
 				7305368B28D8F2540084BC56 /* Info.plist */,
 			);
 			path = ToDoApp;
@@ -153,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				7322EE5128DB1ED900397BFF /* PostListModel.swift */,
+				7322EE5328DB406800397BFF /* PostListEntity.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,8 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				730536B428D90D9E0084BC56 /* PostListViewModel.swift */,
-				7322EE4D28DA586000397BFF /* AddNewTaskViewModel.swift */,
-				7322EE4F28DA588100397BFF /* ToDoListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -171,14 +192,143 @@
 			isa = PBXGroup;
 			children = (
 				7305368128D8F2520084BC56 /* PostListViewController.swift */,
-				7322EE5328DB406800397BFF /* PostListEntity.swift */,
 				735FC3F028DBE17E00111CF4 /* PostListTableViewCell.swift */,
 				735FC3F128DBE17E00111CF4 /* PostListTableViewCell.xib */,
-				730536B028D903AF0084BC56 /* ToDoListViewController.swift */,
-				730536B228D904FD0084BC56 /* ImageCollectionViewController.swift */,
-				7322EE4B28DA57B800397BFF /* AddNewTaskViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		73410D2528DFEFD1008B6AAC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				73410D2228DFEDEF008B6AAC /* UserInfo.xcdatamodeld */,
+				73410D2628DFEFF4008B6AAC /* CoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		73E6342C28DDE39C004D271B /* PostListModule */ = {
+			isa = PBXGroup;
+			children = (
+				730536AE28D8F95B0084BC56 /* ViewModel */,
+				730536AF28D8F97B0084BC56 /* View */,
+				730536AD28D8F9520084BC56 /* Model */,
+			);
+			path = PostListModule;
+			sourceTree = "<group>";
+		};
+		73E6342D28DDE404004D271B /* ToDoListModule */ = {
+			isa = PBXGroup;
+			children = (
+				73E6343028DDE429004D271B /* Model */,
+				73E6342F28DDE423004D271B /* View */,
+				73E6342E28DDE419004D271B /* ViewModel */,
+			);
+			path = ToDoListModule;
+			sourceTree = "<group>";
+		};
+		73E6342E28DDE419004D271B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				73E6344228DE042F004D271B /* ToDoListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73E6342F28DDE423004D271B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				730536B028D903AF0084BC56 /* ToDoListViewController.swift */,
+				73E6344828DFD85B004D271B /* ToDoTableViewCell.swift */,
+				73E6344928DFD85B004D271B /* ToDoTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73E6343028DDE429004D271B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7322EE4F28DA588100397BFF /* ToDoListViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73E6343128DDE46F004D271B /* ImageListModule */ = {
+			isa = PBXGroup;
+			children = (
+				73E6343428DDE484004D271B /* View Model */,
+				73E6343328DDE47F004D271B /* View */,
+				73E6343228DDE478004D271B /* Model */,
+			);
+			path = ImageListModule;
+			sourceTree = "<group>";
+		};
+		73E6343228DDE478004D271B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				73E6343828DE02A3004D271B /* ImageListModel.swift */,
+				73E6343628DE014D004D271B /* ImageListEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73E6343328DDE47F004D271B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				730536B228D904FD0084BC56 /* ImageCollectionViewController.swift */,
+				73E6343C28DE03ED004D271B /* ImageListCollectionViewCell.swift */,
+				73E6343D28DE03ED004D271B /* ImageListCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73E6343428DDE484004D271B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				73E6344028DE040B004D271B /* ImageListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		73E6343528DDE69E004D271B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7305368828D8F2540084BC56 /* LaunchScreen.storyboard */,
+				7305368328D8F2520084BC56 /* Main.storyboard */,
+				7305368628D8F2540084BC56 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		73E6344428DFD7A2004D271B /* ToDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				73E6344728DFD7EB004D271B /* ViewModel */,
+				73E6344628DFD7E2004D271B /* View */,
+				73E6344528DFD7D8004D271B /* Model */,
+			);
+			path = ToDetailModule;
+			sourceTree = "<group>";
+		};
+		73E6344528DFD7D8004D271B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73E6344628DFD7E2004D271B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73E6344728DFD7EB004D271B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +436,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7305368A28D8F2540084BC56 /* LaunchScreen.storyboard in Resources */,
+				73E6344B28DFD85B004D271B /* ToDoTableViewCell.xib in Resources */,
+				73E6343F28DE03ED004D271B /* ImageListCollectionViewCell.xib in Resources */,
 				735FC3F328DBE17E00111CF4 /* PostListTableViewCell.xib in Resources */,
 				7305368728D8F2540084BC56 /* Assets.xcassets in Resources */,
 				7305368528D8F2520084BC56 /* Main.storyboard in Resources */,
@@ -313,18 +465,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E6344328DE042F004D271B /* ToDoListViewModel.swift in Sources */,
 				735FC3F228DBE17E00111CF4 /* PostListTableViewCell.swift in Sources */,
 				7322EE5028DA588100397BFF /* ToDoListViewModel.swift in Sources */,
 				730536B328D904FD0084BC56 /* ImageCollectionViewController.swift in Sources */,
+				73410D2428DFEDEF008B6AAC /* UserInfo.xcdatamodeld in Sources */,
 				730536B128D903AF0084BC56 /* ToDoListViewController.swift in Sources */,
 				7305368228D8F2520084BC56 /* PostListViewController.swift in Sources */,
+				73E6343E28DE03ED004D271B /* ImageListCollectionViewCell.swift in Sources */,
 				730536B528D90D9E0084BC56 /* PostListViewModel.swift in Sources */,
 				7322EE5428DB406800397BFF /* PostListEntity.swift in Sources */,
 				7305367E28D8F2520084BC56 /* AppDelegate.swift in Sources */,
+				73E6343728DE014D004D271B /* ImageListEntity.swift in Sources */,
 				7322EE4C28DA57B800397BFF /* AddNewTaskViewController.swift in Sources */,
 				7322EE5228DB1ED900397BFF /* PostListModel.swift in Sources */,
+				73E6343928DE02A3004D271B /* ImageListModel.swift in Sources */,
+				73410D2728DFEFF4008B6AAC /* CoreDataStack.swift in Sources */,
 				7322EE4E28DA586000397BFF /* AddNewTaskViewModel.swift in Sources */,
+				73E6344A28DFD85B004D271B /* ToDoTableViewCell.swift in Sources */,
 				7305368028D8F2520084BC56 /* SceneDelegate.swift in Sources */,
+				73E6344128DE040B004D271B /* ImageListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,6 +828,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		73410D2228DFEDEF008B6AAC /* UserInfo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				73410D2328DFEDEF008B6AAC /* UserInfo.xcdatamodel */,
+			);
+			currentVersion = 73410D2328DFEDEF008B6AAC /* UserInfo.xcdatamodel */;
+			path = UserInfo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7305367228D8F2520084BC56 /* Project object */;
 }

@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  ToDoApp
-//
-//  Created by Gökçe Kahraman on 19.09.2022.
-//
 
 import UIKit
 
@@ -37,12 +31,24 @@ private extension PostListViewController{
     }
 }
 
-extension PostListViewController: PostListViewModelViewProtocol{
-    
+extension PostListViewController: PostListViewModelViewProtocol {
+   
     func didCellItemFetch(_ items: [PostCellViewModel]) {
         self.items = items
-        tableView.reloadData()
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+
+        }
     }
+    
+    func showEmptyView() {
+//        TODO:
+    }
+    
+    func hideEmptyView() {
+//        TODO:
+    }
+    
 }
 
 extension PostListViewController: UITableViewDelegate{

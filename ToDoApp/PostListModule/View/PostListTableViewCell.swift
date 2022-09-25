@@ -1,9 +1,4 @@
-//
-//  TableViewCell.swift
-//  ToDoApp
-//
-//  Created by Gökçe Kahraman on 22.09.2022.
-//
+
 
 import UIKit
 
