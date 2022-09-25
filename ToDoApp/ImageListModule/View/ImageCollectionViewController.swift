@@ -1,5 +1,6 @@
 
 import UIKit
+import Kingfisher
 
 class ImageCollectionViewController: UIViewController {
     
@@ -64,8 +65,10 @@ extension ImageCollectionViewController: UICollectionViewDataSource{
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageListCollectionViewCell", for: <#IndexPath#>) as! ImageListCollectionViewCell
-        cell.imageView.image = itemsI[indexPath.row].url
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageListCollectionViewCell", for: indexPath) as! ImageListCollectionViewCell
+        if let url = URL(string: itemsI[indexPath.row].url ?? "")  {
+            cell.imageView.kf.setImage(with: url)
+        }
         return cell
     }
 }

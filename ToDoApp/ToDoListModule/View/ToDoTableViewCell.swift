@@ -1,14 +1,15 @@
-//
-//  ToDoTableViewCell.swift
-//  ToDoApp
-//
-//  Created by Gökçe Kahraman on 25.09.2022.
-//
 
 import UIKit
 
 class ToDoTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var taskLabel: UILabel!
+
+    @IBOutlet weak var checkMark: UIButton!
+
+    
+    var isMarked = false
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,5 +20,10 @@ class ToDoTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+
 }
+
+struct Todo{
+    var isMarked : Bool
+}
+
